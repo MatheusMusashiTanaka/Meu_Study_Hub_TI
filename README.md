@@ -4,10 +4,10 @@ Repositório central que documenta minha jornada acadêmica e profissional, cria
 
 ## Sobre mim
 
-**Matheus Musashi Tanaka** — Ciência da Computação, 8º semestre.
+**Matheus Musashi Tanaka** - Ciência da Computação, 8º semestre.
 Desenvolvedor Júnior na NTSEC, com interesse em **Desenvolvimento** e **DevOps**.
 
-- Perfil completo (Fase 1 — Bootcamp I): [Google Docs](https://docs.google.com/document/d/1BDP5hpJRoy6y0FQHqSR5ovBCtEdU7ZjzAaLOqJkEvnY/edit)
+- Perfil completo (Fase 1 - Bootcamp I): [Google Docs](https://docs.google.com/document/d/1BDP5hpJRoy6y0FQHqSR5ovBCtEdU7ZjzAaLOqJkEvnY/)
 - LinkedIn: [matheus-musashi-tanaka](https://www.linkedin.com/in/matheus-musashi-tanaka-3b6359278/)
 - GitHub: [MatheusMusashiTanaka](https://github.com/MatheusMusashiTanaka)
 
