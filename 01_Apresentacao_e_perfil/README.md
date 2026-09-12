@@ -17,4 +17,4 @@ Meu interesse pela área de Tecnologia da Informação começou cedo pela fascin
 - **LinkedIn:** [matheus-musashi-tanaka](https://www.linkedin.com/in/matheus-musashi-tanaka-3b6359278/)
 - **GitHub:** [MatheusMusashiTanaka](https://github.com/MatheusMusashiTanaka)
 
-> Documento completo da Fase 1 do Bootcamp I [Google Docs](https://docs.google.com/document/d/1BDP5hpJRoy6y0FQHqSR5ovBCtEdU7ZjzAaLOqJkEvnY/edit)
+> Documento completo da Fase 1 do Bootcamp I [Google Docs](https://docs.google.com/document/d/1BDP5hpJRoy6y0FQHqSR5ovBCtEdU7ZjzAaLOqJkEvnY/edit?usp=sharing)
