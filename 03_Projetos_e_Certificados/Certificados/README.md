@@ -1,3 +1,3 @@
 # Certificados
 
-Adicione aqui os certificados (PDF ou imagem) de cursos, workshops e treinamentos complementares realizados ao longo da graduação.
+Local de armazenamento de certificados conquistados durante o curso.
