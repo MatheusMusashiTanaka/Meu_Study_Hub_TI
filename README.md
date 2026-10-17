@@ -7,6 +7,7 @@ Repositório central que documenta minha jornada acadêmica e profissional, cria
 **Matheus Musashi Tanaka** — Ciência da Computação, 8º semestre.
 Desenvolvedor Júnior na NTSEC, com interesse em **Desenvolvimento** e **DevOps**.
 
+- Página do projeto (GitHub Pages): [matheusmusashitanaka.github.io/Meu_Study_Hub_TI](https://matheusmusashitanaka.github.io/Meu_Study_Hub_TI/)
 - Perfil completo (Fase 1 — Bootcamp I): [Google Docs](https://docs.google.com/document/d/1BDP5hpJRoy6y0FQHqSR5ovBCtEdU7ZjzAaLOqJkEvnY/edit)
 - LinkedIn: [matheus-musashi-tanaka](https://www.linkedin.com/in/matheus-musashi-tanaka-3b6359278/)
 - GitHub: [MatheusMusashiTanaka](https://github.com/MatheusMusashiTanaka)
@@ -15,6 +16,7 @@ Desenvolvedor Júnior na NTSEC, com interesse em **Desenvolvimento** e **DevOps*
 
 ```
 Meu_Study_Hub_TI/
+├── index.html                      (página inicial — GitHub Pages)
 ├── 01_Apresentacao_e_Perfil/
 ├── 02_Disciplinas_Atuais/
 │   ├── Bootcamp_I/
@@ -40,6 +42,7 @@ Meu_Study_Hub_TI/
 
 ## Como este repositório é organizado
 
+- **index.html** — página de apresentação publicada via GitHub Pages, reunindo perfil, projetos e habilidades.
 - **01_Apresentacao_e_Perfil/** — identidade profissional e materiais de apresentação.
 - **02_Disciplinas_Atuais/** — uma pasta por disciplina cursada no semestre atual, sempre dividida em `Atividades_e_Entregas` (o que é entregue) e `Anotacoes_e_Resumos` (material de estudo). Esse padrão se repete para toda disciplina futura.
 - **03_Projetos_e_Certificados/** — projetos pessoais desenvolvidos ao longo do curso e certificados obtidos em cursos complementares.
