@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Matheus Musashi Tanaka — Study Hub TI</title>
+<style>
+  :root {
+    --bg: #0b0f17;
+    --bg-card: #121826;
+    --border: #232c3d;
+    --text: #e8ecf4;
+    --text-dim: #9aa5b8;
+    --accent: #5b8cff;
+    --accent-soft: rgba(91,140,255,0.12);
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.55;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  .wrap { max-width: 880px; margin: 0 auto; padding: 0 20px; }
+
+  header.hero {
+    padding: 64px 0 40px;
+    text-align: center;
+    border-bottom: 1px solid var(--border);
+  }
+  header.hero h1 {
+    font-size: 2.2rem;
+    margin: 0 0 6px;
+    letter-spacing: 0.3px;
+  }
+  header.hero p.tagline {
+    color: var(--text-dim);
+    font-size: 1.05rem;
+    margin: 0 0 20px;
+  }
+  .badges { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+  .badge {
+    background: var(--accent-soft);
+    color: var(--accent);
+    border: 1px solid rgba(91,140,255,0.35);
+    border-radius: 999px;
+    padding: 5px 14px;
+    font-size: 0.85rem;
+  }
+
+  .links-row {
+    display: flex; gap: 14px; justify-content: center; flex-wrap: wrap;
+    margin-top: 24px;
+  }
+  .links-row a.btn {
+    border: 1px solid var(--border);
+    padding: 9px 18px;
+    border-radius: 8px;
+    color: var(--text);
+    font-size: 0.92rem;
+  }
+  .links-row a.btn:hover { border-color: var(--accent); text-decoration: none; color: var(--accent); }
+
+  section { padding: 48px 0; border-bottom: 1px solid var(--border); }
+  section:last-of-type { border-bottom: none; }
+  section h2 {
+    font-size: 1.3rem;
+    margin: 0 0 18px;
+    display: flex; align-items: center; gap: 10px;
+  }
+  section h2::before {
+    content: "";
+    width: 6px; height: 6px;
+    background: var(--accent);
+    border-radius: 50%;
+    display: inline-block;
+  }
+  p.lead { color: var(--text-dim); max-width: 70ch; }
+
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
+  .card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px;
+  }
+  .card h3 { margin: 0 0 8px; font-size: 1.02rem; }
+  .card p { margin: 0; color: var(--text-dim); font-size: 0.92rem; }
+  .card .stack { margin-top: 10px; font-size: 0.8rem; color: var(--accent); }
+
+  .skills { display: flex; flex-wrap: wrap; gap: 8px; }
+  .skills span {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    padding: 5px 12px;
+    border-radius: 7px;
+    font-size: 0.85rem;
+    color: var(--text-dim);
+  }
+
+  pre.tree {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 18px;
+    overflow-x: auto;
+    font-size: 0.82rem;
+    color: var(--text-dim);
+    line-height: 1.5;
+  }
+
+  footer {
+    text-align: center;
+    padding: 36px 0 56px;
+    color: var(--text-dim);
+    font-size: 0.85rem;
+  }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header class="hero">
+    <h1>Matheus Musashi Tanaka</h1>
+    <p class="tagline">Ciência da Computação (UniCEUB) · Desenvolvedor Júnior · Study Hub TI</p>
+    <div class="badges">
+      <span class="badge">Desenvolvimento</span>
+      <span class="badge">Segurança da Informação</span>
+      <span class="badge">Redes &amp; Infraestrutura</span>
+    </div>
+    <div class="links-row">
+      <a class="btn" href="https://github.com/MatheusMusashiTanaka" target="_blank">GitHub</a>
+      <a class="btn" href="https://www.linkedin.com/in/matheus-musashi-tanaka-3b6359278/" target="_blank">LinkedIn</a>
+      <a class="btn" href="mailto:tanakamusashi1@gmail.com">E-mail</a>
+      <a class="btn" href="01_Apresentacao_e_perfil/Curriculo/curriculo_matheus_musashi.pdf" target="_blank">Currículo (PDF)</a>
+    </div>
+  </header>
+
+  <section id="sobre">
+    <h2>Sobre mim</h2>
+    <p class="lead">Estudante de Ciência da Computação no UniCEUB, atualmente no 8º semestre. Atuo como Desenvolvedor Júnior, com interesse em desenvolvimento de software, segurança da informação e automação de processos. Esse repositório — o <strong>Study Hub TI</strong> — centraliza minha jornada acadêmica e profissional: disciplinas, projetos pessoais e certificações, tudo organizado de forma versionada.</p>
+  </section>
+
+  <section id="projetos">
+    <h2>Projetos em destaque</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Toque de Mulher</h3>
+        <p>Plataforma de e-commerce para o setor de beleza, com vitrine virtual, painel administrativo e integração de pagamento.</p>
+        <div class="stack">TypeScript · Python</div>
+        <p style="margin-top:10px;"><a href="https://github.com/ToqueDeMulher" target="_blank">Ver organização →</a></p>
+      </div>
+      <div class="card">
+        <h3>Sistema de Jogo (PHP + JS)</h3>
+        <p>Jogo de RPG com evolução de personagens, combate por turnos e integração com banco de dados MongoDB.</p>
+        <div class="stack">PHP · JavaScript · MongoDB</div>
+      </div>
+      <div class="card">
+        <h3>Sistema de Ponto Eletrônico</h3>
+        <p>Aplicação web para registro de entrada e saída de colaboradores, com foco em simplicidade e eficiência.</p>
+        <div class="stack">JavaScript</div>
+      </div>
+      <div class="card">
+        <h3>Study Hub TI <em>(este repositório)</em></h3>
+        <p>Estrutura versionada que organiza disciplinas, entregas, projetos pessoais e certificados ao longo da graduação.</p>
+        <div class="stack">Git · GitHub Pages · Markdown</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="habilidades">
+    <h2>Habilidades</h2>
+    <div class="skills">
+      <span>Python</span><span>Java</span><span>C/C++</span><span>JavaScript</span><span>Go</span><span>PHP</span>
+      <span>HTML/CSS</span><span>Node.js</span><span>MySQL</span><span>MongoDB</span>
+      <span>Git &amp; GitHub</span><span>n8n</span><span>DevOps (fundamentos)</span>
+    </div>
+  </section>
+
+  <section id="estrutura">
+    <h2>Estrutura do repositório</h2>
+    <p class="lead">Organização versionada em três blocos: apresentação, disciplinas do semestre e projetos/certificados.</p>
+    <pre class="tree">Meu_Study_Hub_TI/
+├── index.html                      (esta página — GitHub Pages)
+├── 01_Apresentacao_e_Perfil/       (identidade profissional + currículo)
+├── 02_Disciplinas_Atuais/          (uma pasta por disciplina do semestre)
+└── 03_Projetos_e_Certificados/     (projetos pessoais e certificados)</pre>
+    <p style="margin-top:14px;"><a href="https://github.com/MatheusMusashiTanaka/Meu_Study_Hub_TI" target="_blank">Ver repositório completo no GitHub →</a></p>
+  </section>
+
+  <footer>
+    Publicado via GitHub Pages · Study Hub TI · Matheus Musashi Tanaka
+  </footer>
+</div>
+
+</body>
+</html>
